@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+body{
+    background-color: #c5c5c5;
+}
+
+
+#cont_xogo{
+    float: left;
+    width: 750px;
+    height: 100%;
+    margin-top: 72px;
+}
+
+#divtabla{
+    width: 700px;
+    margin-left: 65px;
+}
+
+#titulo h1{
+    margin-left: 350px;
+    font-family: 'Acme', sans-serif;
+    font-size: 80px;
+    color: #ea311a;
+}
+#cronometro{
+    margin-left: 230px;
+    font-size: 50px;
+    color: #ff732f;
+    width: 600px;
+}
+.crono{
+    margin-top: 40px;
+    display: inline-block;
+}
+
+#botones{
+    margin-left: 150px;
+    font-size: 50px;
+    width:600px;
+}
+
+.btn {
+    background: #b24c20;
+    background-image: -webkit-linear-gradient(top, #b24c20, #c14f20);
+    background-image: -moz-linear-gradient(top, #b24c20, #c14f20);
+    background-image: -ms-linear-gradient(top, #b24c20, #c14f20);
+    background-image: -o-linear-gradient(top, #b24c20, #c14f20);
+    background-image: linear-gradient(to bottom, #b24c20, #c14f20);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #ff8423;
+    background-image: -webkit-linear-gradient(top, #ff8423, #bc5a23);
+    background-image: -moz-linear-gradient(top, #ff8423, #bc5a23);
+    background-image: -ms-linear-gradient(top, #ff8423, #bc5a23);
+    background-image: -o-linear-gradient(top, #ff8423, #bc5a23);
+    background-image: linear-gradient(to bottom, #ff8423, #bc5a23);
+    text-decoration: none;
+}
+
+#cont_partidas
+{
+    float: right;
+    width: 300px;
+    margin-right: 100px;
+}
+#cont_partidas h2
+{
+    font-family: 'Acme', sans-serif;
+    color: #ed6d2d;
+    text-align: center;
+}
+#partidas
+{
+    border: 1px solid black;
+    margin-left: 20px;
+    text-align: center;
+    height: 600px;
+
+}
+
+.nombrePartida {
+    background: #b24c20;
+    background-image: -webkit-linear-gradient(top, #b24c20, #c14f20);
+    background-image: -moz-linear-gradient(top, #b24c20, #c14f20);
+    background-image: -ms-linear-gradient(top, #b24c20, #c14f20);
+    background-image: -o-linear-gradient(top, #b24c20, #c14f20);
+    background-image: linear-gradient(to bottom, #b24c20, #c14f20);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.nombrePartida:hover {
+    background: #ff8423;
+    background-image: -webkit-linear-gradient(top, #ff8423, #bc5a23);
+    background-image: -moz-linear-gradient(top, #ff8423, #bc5a23);
+    background-image: -ms-linear-gradient(top, #ff8423, #bc5a23);
+    background-image: -o-linear-gradient(top, #ff8423, #bc5a23);
+    background-image: linear-gradient(to bottom, #ff8423, #bc5a23);
+    text-decoration: none;
+}
+
+td img {display: block;}
